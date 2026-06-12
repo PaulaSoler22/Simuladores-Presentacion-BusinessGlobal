@@ -929,7 +929,9 @@
             display: flex; flex-direction: column; gap: 18px; align-items: center;
         }
         .decision-shot img {
-            width: 100%; max-width: 780px; height: auto;
+            width: 100%; max-width: 760px; height: 360px;
+            object-fit: contain;
+            background: #fff;
             border-radius: 10px;
             border: 1px solid #e0e6ea;
             box-shadow: 0 4px 16px rgba(0,0,0,0.1);
@@ -938,7 +940,6 @@
             display: block;
         }
         .decision-shot img:hover { transform: scale(1.015); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
-        .decision-shot img[alt^="Precios"] { max-width: 560px; }
     </style>
 
 <base target="_blank">
